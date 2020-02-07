@@ -1,0 +1,87 @@
+class employee
+{
+void benefits()
+{
+system.out.println("enjoying benefits");
+}
+void calculatepay()
+{
+system.out.println("total pay");
+}
+}
+
+
+class interns extend employee
+{
+void basicbenefits()
+{
+system.out.println("enjoying benefits");
+}
+}
+
+
+class softwaredevelopers extend employee
+{
+void basicbenefits()
+{
+system.out.println("enjoying benefits");
+}
+void devbenefits()
+{
+system.out.println("Dev benefits");
+}
+}
+
+
+class projectmanagers extend employee
+{
+void basicbenefits()
+{
+system.out.println("enjoying benefits");
+}
+void devbenefits()
+{
+system.out.println("Dev benefits");
+}
+void managerbenefits()
+{
+system.out.println("manager benefits");
+}
+}
+
+
+public calculatepay(string name,double pay,double hours)
+{
+emp1desg=desg;
+emp1pay=pay;
+hoursworked=hours;
+}
+
+
+public string tostring()
+{
+return "basicbenefits:"+benefits
+       "devbenefits:"+dev benefits
+       "managerbenefits:"+manager benefits
+       "emp1desg;"+emp1 desg
+       "emp1pay;"+emp1 pay;
+}
+
+
+static void main(string[]args)
+{
+employee e=new employee();
+system.out.println(m);
+string name;
+double pay;
+double hours;
+calculate pay[]emp1=new calculatepay[3];
+for(int i=0;i<3;i++)
+{
+system.out.println("Enter employee desg;pay;hours");
+}
+emp1[i]=new calculatepay(desg,pay,hours);
+}
+
+
+
