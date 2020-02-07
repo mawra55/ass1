@@ -1,0 +1,94 @@
+class creature
+{
+void breathe()
+{
+system.out.println("breathing");
+}
+void food()
+{
+system.out.println("eating");
+}
+}
+
+
+
+class birds extends creature
+{
+void walk()
+{
+system.out.println("walking");
+}
+void fly()
+{
+system.out.println("flying");
+}
+void makenest()
+{
+system.out.println("nesting");
+}
+void trick()
+{
+system.out.println("tricking");
+}
+}
+
+
+class dogs extends creature()
+{
+void walk()
+{
+system.out.println("breathing");
+}
+void trick()
+{
+system.out.println("tricking");
+}
+}
+
+
+class rabbits extends creatures
+{
+void hop()
+{
+system.out.println("hoping");
+}
+}
+
+
+
+class pets extends creature
+{
+void singsong()
+{
+system.out.println("birds can sing song");
+} 
+void playdead()
+{
+system.out.println("dogs can play dead");
+}
+}
+
+
+public void main(string args[])
+{
+birds b= new birds();
+dogs d= new dogs();
+rabbits r=new rabbits();
+pets p= new pets();
+b.breathe();
+b.food();
+b.trick();
+b.fly();
+b.walk();
+b.makenest();
+d.breathe();
+d.food();
+d.walk();
+d.trick()
+r.breathe();
+r.food();
+r.hop();
+p.singsongs();
+p.playdead();
+}
+
